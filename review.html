@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Pg3</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html>
+  <style>
+        .form-group {
+            margin-bottom: 1.5rem;
+          padding-left:4%
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #dcdde1;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+
+        button {
+            color: white;
+            padding: 14px 28px ;
+            margin-left:4%;
+            margin-bottom: 2%;  
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s;
+            margin-top: 1rem;
+        }
+
+        button:hover {
+            background-color: #0097e6;
+            transform: translateY(-2px);
+        }
+
+        textarea {
+          font-family: Arial
+        }
+  </style>
+<body>
+  
+  <div id="top">
+  <header>
+<h1 style="padding-left:20px; display: inline;">Jesse's Awesome Blog</h1>
+ <p style="display: inline; padding-left:20px; color: white; font-size: 100%">All rankings are based off the Jesse Scale™</p>
+  </header>
+  <nav>
+  <a href="index.html" style="padding-left:20px;">Home</a>
+  <a href="anime.html" style="padding-left:20px;">Anime Rankings</a>
+  <a href="music.html" style="padding-left:20px;">Music Reviews</a>
+    <a href="review.html" style="padding-left:20px; color: black; font-weight: bold;">Submit Reviews</a>
+  <a href="about.html" style="padding-left:20px;">About</a>
+  </nav>
+  </div>
+  <main>
+    <div id="row" style="border-top:2px solid black">
+      <div id="container">
+      <h1 style="margin-left:3%">Submit Your Own Review:</h1>
+      
+      
+      <form style="margin-top:8%; display: block;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding-left:2%; align-items:left;">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="john@example.com">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="deadline">What series/album are you reviewing?</label>
+            <input type="text" id="deadline" placeholder="Ex. Chainsaw Man: Reze Arc">
+        </div>
+
+        <div class="form-group">
+            <label for="items">Your Written Review</label>
+            <textarea id="items" rows="3" placeholder="Bless us with your insightful review."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="event">Your Number Rating + Any Additional Notes</label>
+            <textarea id="event" rows="3" placeholder="Ex. Rating: 6.7 and this website stinks"></textarea>
+        </div>
+
+        <div style="padding-left:2%;">
+            <input type="checkbox" id="consent">
+            <label for="consent" style="font-weight: normal; font-size: 0.9rem;">
+                I agree to receive occasional emails from Jesse's Awesome Blog
+            </label>
+        </div>
+
+        <button type="submit" style="background-color:black">Submit Review</button>
+    </form>
+    </div>
+  </main>
+  
+  
+
+</body>
+</html>
+    
+  </body>
+  
+</html>
